@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Simple Gopher Client with basic error handling
+# Simple Gopher client with basic error handling
 import socket, sys
 
 port = 70 # port used by Gopher
