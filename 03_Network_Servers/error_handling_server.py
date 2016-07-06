@@ -31,6 +31,7 @@ while True:
     # Close connection
     try:
         clientsock.close()
+        # ...close file objects here too....
     except KeyboardInterrupt:
         raise
     except:
