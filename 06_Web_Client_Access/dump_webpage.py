@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Obtain a web page
+# Obtain a web page (note: works with HTTP and FTP)
 import sys, urllib2
 
 req = urllib2.Request(sys.argv[1])
